@@ -10,11 +10,7 @@ void count_words(char input_text[]) {
     char nu = '\0'; 
     if (input_text != '\0'){
         for (int i = 0; i <= strlen(input_text); i++){
-            if (input_text[i] == ch){
-                count++;
-            }
-            else if (input_text[i] == nu )
-            {
+            if (input_text[i] == ch || input_text[i] == nu){
                 count++;
             }
             
